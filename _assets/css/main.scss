@@ -1,0 +1,17 @@
+body {
+  font-family: "Roboto Slab", serif;
+}
+
+.navbar {
+  margin-bottom: 1rem;
+
+  .navbar-brand {
+    color: #bbb;
+    font-weight: 300;
+    margin: 0 auto;
+
+    span {
+      opacity: 0.5;
+    }
+  }
+}

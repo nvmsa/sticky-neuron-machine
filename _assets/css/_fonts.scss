@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "Roboto Slab";
+  src: font_url("robotoslab-regular.eot");
+  src: font_url("robotoslab-regular.eot?#iefix") format("embedded-opentype"),
+       font_url("robotoslab-regular.woff") format("woff"),
+       font_url("robotoslab-regular.ttf") format("truetype"),
+       font_url("robotoslab-regular.svg#roboto_slabregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto Slab";
+  src: font_url("robotoslab-light.eot");
+  src: font_url("robotoslab-light.eot?#iefix") format("embedded-opentype"),
+       font_url("robotoslab-light.woff") format("woff"),
+       font_url("robotoslab-light.ttf") format("truetype"),
+       font_url("robotoslab-light.svg#roboto_slablight") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto Slab";
+  src: font_url("robotoslab-thin.eot");
+  src: font_url("robotoslab-thin.eot?#iefix") format("embedded-opentype"),
+       font_url("robotoslab-thin.woff") format("woff"),
+       font_url("robotoslab-thin.ttf") format("truetype"),
+       font_url("robotoslab-thin.svg#roboto_slabthin") format("svg");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto Slab";
+  src: font_url("robotoslab-bold.eot");
+  src: font_url("robotoslab-bold.eot?#iefix") format("embedded-opentype"),
+       font_url("robotoslab-bold.woff") format("woff"),
+       font_url("robotoslab-bold.ttf") format("truetype"),
+       font_url("robotoslab-bold.svg#roboto_slabbold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}

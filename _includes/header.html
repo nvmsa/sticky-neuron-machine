@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{% if page.title %}{{ page.title }} - Submissive Autism{% else %}Submissive Autism{% endif %}</title>
+
+    {% css _application %}
+    {% js _application %}
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse bg-inverse">
+      <a class="navbar-brand" href="{% link index.md %}">submissive<span>autism</span></a>
+    </nav>
