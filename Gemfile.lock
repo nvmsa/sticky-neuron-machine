@@ -12,6 +12,8 @@ GEM
     fastimage (2.0.0)
       addressable (~> 2)
     ffi (1.9.18)
+    font-awesome-sass (4.7.0)
+      sass (>= 3.2)
     forwardable-extended (2.6.0)
     jekyll (3.4.2)
       addressable (~> 2.4)
@@ -68,6 +70,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler
+  font-awesome-sass
   jekyll
   jekyll-assets
   rails-assets-bootstrap (= 4.0.0.alpha.6)!

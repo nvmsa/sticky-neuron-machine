@@ -8,6 +8,14 @@ body {
   font-weight: 300;
 }
 
+a {
+  color: #0275d8;
+
+  &:hover, &:focus {
+    color: #0275d8;
+  }
+}
+
 .navbar {
   .navbar-brand {
     color: $fontcolor;
@@ -29,16 +37,42 @@ body {
   background-position: 16px 0;
   background-repeat: repeat-y;
   background-size: 12px;
-  padding-left: 55px;
-  padding-top: 1rem;
+  padding: 1rem 15px 3rem 55px;
+}
+
+.timeline-event {
+  margin-top: 1.5rem;
+  position: relative;
+
+  .icon {
+    background-color: #292B2C;
+    border-radius: 24px;
+    border: 1px solid #727272;
+    font-size: 22px;
+    height: 43px;
+    left: -54px;
+    line-height: 40px;
+    position: absolute;
+    text-align: center;
+    width: 43px;
+  }
+
+  h2 {
+    line-height: 1.4;
+  }
+
+  .metadata {
+    font-weight: 100;
+  }
 }
 
 footer {
+  background-color: #292B2C;
   padding: 2rem 0;
 
   .salogo {
     display: block;
-    fill: #292B2C;
+    fill: #181818;
     max-width: 80px;
   }
 }
