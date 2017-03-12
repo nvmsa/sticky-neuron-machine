@@ -1,17 +1,16 @@
+$fontcolor: #bbb;
 $semihighlight: #727272;
 
 body {
   background-color: #181818;
-  color: #9f9f9f;
+  color: $fontcolor;
   font-family: "Roboto Slab", serif;
   font-weight: 300;
 }
 
 .navbar {
-  margin-bottom: 1rem;
-
   .navbar-brand {
-    color: #bbb;
+    color: $fontcolor;
     font-weight: 300;
     margin: 0 auto;
 
@@ -25,9 +24,21 @@ body {
   }
 }
 
-.salogo {
-  display: block;
-  fill: #292B2C;
-  margin: 2rem auto;
-  max-width: 80px;
+.timeline-container {
+  background-image: image_url("chain.png");
+  background-position: 16px 0;
+  background-repeat: repeat-y;
+  background-size: 12px;
+  padding-left: 55px;
+  padding-top: 1rem;
+}
+
+footer {
+  padding: 2rem 0;
+
+  .salogo {
+    display: block;
+    fill: #292B2C;
+    max-width: 80px;
+  }
 }
