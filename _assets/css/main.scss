@@ -8,12 +8,8 @@ body {
   font-weight: 300;
 }
 
-a {
+a, a:hover, a:focus {
   color: #0275d8;
-
-  &:hover, &:focus {
-    color: #0275d8;
-  }
 }
 
 .navbar {
@@ -32,7 +28,7 @@ a {
   }
 }
 
-.timeline-container {
+.chained-container {
   background-image: image_url("chain.png");
   background-position: 16px 0;
   background-repeat: repeat-y;
@@ -74,5 +70,16 @@ footer {
     display: block;
     fill: #181818;
     max-width: 80px;
+  }
+
+  p {
+    font-weight: normal;
+    margin: 1em 0 0 0;
+    text-align: center;
+
+    a, a:hover, a:focus {
+      color: #181818;
+      text-decoration: none;
+    }
   }
 }
