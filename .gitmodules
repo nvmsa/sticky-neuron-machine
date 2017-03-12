@@ -1,0 +1,3 @@
+[submodule "sticky-neuron-machine.git"]
+	path = _site
+	url = git@github.com:nvmsa/sticky-neuron-machine.git
