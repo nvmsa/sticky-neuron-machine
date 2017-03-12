@@ -1,5 +1,10 @@
+$semihighlight: #727272;
+
 body {
+  background-color: #181818;
+  color: #9f9f9f;
   font-family: "Roboto Slab", serif;
+  font-weight: 300;
 }
 
 .navbar {
@@ -11,7 +16,18 @@ body {
     margin: 0 auto;
 
     span {
-      opacity: 0.5;
+      color: $semihighlight;
+    }
+
+    &:hover span {
+      color: lighten($semihighlight, 20%);
     }
   }
+}
+
+.salogo {
+  display: block;
+  fill: #292B2C;
+  margin: 2rem auto;
+  max-width: 80px;
 }
